@@ -1146,7 +1146,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			
 			.row {
 				display: inline;
 				flex-wrap: wrap;
@@ -2218,7 +2218,7 @@ input, select, textarea {
 						transition: .3s ease;
 						border-radius: 1em;
 						border: 2px double #ffffff50;
-						background-color: rgba(0, 139, 186, 0.95);
+						background-color: rgba(0, 26, 34, 0.95);
 					}
 
 					p {
@@ -2228,7 +2228,7 @@ input, select, textarea {
 					.containertext {
 						height: 95%;
 						width: 95%;
-						font-size: 1.2em;
+						font-size: 0.77em;
 						position: absolute;
 						top: 50%;
 						left: 50%;
@@ -2236,8 +2236,8 @@ input, select, textarea {
 						-ms-transform: translate(-50%, -50%);
 						transform: translate(-50%, -50%);
 						font-family: 'Source Sans Pro', sans-serif;
-						font-weight: bold;
-						color: #000000;
+						
+						color: #ffffff;
 						line-height: 1.75em;
 					  }
 
