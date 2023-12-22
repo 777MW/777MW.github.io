@@ -1149,6 +1149,7 @@ input, select, textarea {
 			.container .overlay {
 				opacity: 1;
 			}
+
 			.row {
 				display: inline;
 				flex-wrap: wrap;
@@ -1491,6 +1492,7 @@ input, select, textarea {
 
 		h2 {
 			font-size: 1.375em;
+			margin: auto;
 		}
 
 		h3, h4, h5, h6 {
@@ -1600,18 +1602,11 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			display: flex;
 			height: auto;
 			width: 100%;
 		}
 		
-		.image.icon {
-			display: none;
-			height: 40%;
-			width: 40%;
-		}
-		
-
 		.image.featured {
 			display: block;
 			width: 100%;
@@ -2201,6 +2196,8 @@ input, select, textarea {
 						display: flex;
 						height: 70%;
 						width: 50%;
+						margin-left: auto;
+						
 					}
 
 					.overlay {
@@ -2226,7 +2223,7 @@ input, select, textarea {
 						transition: .3s ease;
 						border-radius: 1em;
 						border: 2px double #ffffff50;
-						background-color: rgba(0, 26, 34, 0.95);
+						background-color: rgba(0, 26, 34, 0.837);
 					}
 
 					p {
@@ -2254,7 +2251,7 @@ input, select, textarea {
 					  }
 
 					  .desktoptoggle {
-						visibility: hidden;
+						display: none;
 					  }
 					
 
