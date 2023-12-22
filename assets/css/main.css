@@ -1144,9 +1144,11 @@ input, select, textarea {
 						}
 
 		}
-
+		/*ALWAYS DISPLAY CONTAINER ON SMALLER DEVICES - NO NEED TO HOVER*/
 		@media screen and (max-width: 736px) {
-			
+			.container .overlay {
+				opacity: 1;
+			}
 			.row {
 				display: inline;
 				flex-wrap: wrap;
@@ -1601,6 +1603,12 @@ input, select, textarea {
 			display: block;
 			height: auto;
 			width: 100%;
+		}
+		
+		.image.icon {
+			display: none;
+			height: 40%;
+			width: 40%;
 		}
 		
 
