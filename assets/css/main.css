@@ -87,7 +87,7 @@ body {
 	);
 	background-size: auto auto;
 	background-clip: border-box;
-	background-size: 200% auto;
+	background-size: 100% auto;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@ body {
   
   @keyframes textclip {
 	to {
-	  background-position: 200% center;
+	  background-position: 100% center;
 	}
   }
 
