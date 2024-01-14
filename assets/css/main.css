@@ -1424,7 +1424,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(-33deg, #8000a7, #ab03ee, #0011fd, #0c6dff, #05eeee, #ffffff);
+		background: linear-gradient(-33deg, #8000a7, #ab03ee, #0011fd, #0c6dff, #05eeee, #0c6dff, #0011fd, #ab03ee, #8000a7);
 
 		/*background: linear-gradient(-45deg, #000000, #0314ff, #23A6D5, #6CB85F, #169200);*/
 		background-size: 300% 200%;
